@@ -30,6 +30,8 @@ namespace TiaFileViewer.Core.Serialization.Deserializer.Xml
             foreach (var graph in business.Graphs)
             foreach (var node in graph.Nodes)
             {
+                if (node.Type == null) continue;
+                
                 var tiaNode = new TiaNode {Type = node.Type};
                 foreach (var nodeProperty in node.Properties)
                 {
