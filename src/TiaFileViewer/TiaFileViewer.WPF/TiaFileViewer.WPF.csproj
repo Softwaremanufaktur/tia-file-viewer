@@ -6,4 +6,26 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Views\Resources\Icons\Compare.png" />
+    <None Remove="Views\Resources\Icons\CsvExport.png" />
+    <None Remove="Views\Resources\Icons\fileopen.png" />
+    <None Remove="Views\Resources\Icons\Settings.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Prism.Unity" Version="8.0.0.1909" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TiaFileViewer.Core\TiaFileViewer.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Views\Resources\Icons\Compare.png" />
+    <Resource Include="Views\Resources\Icons\CsvExport.png" />
+    <Resource Include="Views\Resources\Icons\FileOpen.png" />
+    <Resource Include="Views\Resources\Icons\Settings.png" />
+  </ItemGroup>
+
 </Project>

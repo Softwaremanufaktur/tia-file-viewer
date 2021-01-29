@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TiaFileViewer.Core.Contract\TiaFileViewer.Core.Contract.csproj" />
+    <ProjectReference Include="..\TiaFileViewer.Model\TiaFileViewer.Model.csproj" />
+  </ItemGroup>
+
+</Project>
